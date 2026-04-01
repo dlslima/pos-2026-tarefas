@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato id="p1">
+        <nome>Feijoada</nome>
+        <descricao>Prato tradicional com feijão preto e carnes</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carne de porco</ingrediente>
+            <ingrediente>Linguiça</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 35.00</preco>
+        <calorias>800</calorias>
+        <tempoPreparo>90 min</tempoPreparo>
+    </prato>
+
+    <prato id="p2">
+        <nome>Lasanha</nome>
+        <descricao>Massa em camadas com carne e queijo</descricao>
+        <ingredientes>
+            <ingrediente>Massa</ingrediente>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">18.00</preco>
+        <calorias>650</calorias>
+        <tempoPreparo>70 min</tempoPreparo>
+    </prato>
+
+    <prato id="p3">
+        <nome>Hambúrguer</nome>
+        <descricao>Pão com carne e acompanhamentos</descricao>
+        <ingredientes>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Carne</ingrediente>
+            <ingrediente>Alface</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 12.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>15 min</tempoPreparo>
+    </prato>
+
+    <prato id="p4">
+        <nome>Risoto</nome>
+        <descricao>Arroz cremoso com temperos especiais</descricao>
+        <ingredientes>
+            <ingrediente>Arroz arbóreo</ingrediente>
+            <ingrediente>Caldo</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 22.00</preco>
+        <calorias>550</calorias>
+        <tempoPreparo>40 min</tempoPreparo>
+    </prato>
+
+    <prato id="p5">
+        <nome>Bolo de chocolate</nome>
+        <descricao>Bolo macio com cobertura de chocolate</descricao>
+        <ingredientes>
+            <ingrediente>Farinha</ingrediente>
+            <ingrediente>Chocolate</ingrediente>
+            <ingrediente>Ovos</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">16.00</preco>
+        <calorias>500</calorias>
+        <tempoPreparo>50 min</tempoPreparo>
+    </prato>
+</cardapio>
