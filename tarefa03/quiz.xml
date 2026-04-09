@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="1.0">
+
+    <disciplina>Matemática</disciplina>
+
+    <professor>
+        <nome>Carlos Souza</nome>
+    </professor>
+
+    <turma>1º Ano A</turma>
+
+    <data>2026-04-08</data>
+
+    <questões>
+
+        <questão>
+            <enunciado>Quanto é 5 x 3?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="nao">10</alternativa>
+                <alternativa correta="sim">15</alternativa>
+                <alternativa correta="nao">20</alternativa>
+                <alternativa correta="nao">8</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a raiz quadrada de 16?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">8</alternativa>
+                <alternativa correta="nao">2</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é o resultado de 10 - 7?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="sim">3</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">2</alternativa>
+                <alternativa correta="nao">4</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é o dobro de 9?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="nao">16</alternativa>
+                <alternativa correta="sim">18</alternativa>
+                <alternativa correta="nao">20</alternativa>
+                <alternativa correta="nao">12</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Quanto é 12 dividido por 3?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="nao">5</alternativa>
+            </alternativas>
+        </questão>
+
+    </questões>
+
+</quiz>
