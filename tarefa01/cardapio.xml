@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <prato id="p1">
+    <prato id="pr1">
         <nome>Feijoada</nome>
         <descricao>Prato tradicional com feijão preto e carnes</descricao>
         <ingredientes>
@@ -11,10 +11,10 @@
         </ingredientes>
         <preco moeda="BRL">&reais; 35.00</preco>
         <calorias>800</calorias>
-        <tempoPreparo>90 min</tempoPreparo>
+        <tempoPreparo>90 minutos</tempoPreparo>
     </prato>
 
-    <prato id="p2">
+    <prato id="pr2">
         <nome>Lasanha</nome>
         <descricao>Massa em camadas com carne e queijo</descricao>
         <ingredientes>
@@ -24,10 +24,10 @@
         </ingredientes>
         <preco moeda="USD">18.00</preco>
         <calorias>650</calorias>
-        <tempoPreparo>70 min</tempoPreparo>
+        <tempoPreparo>70 minutos</tempoPreparo>
     </prato>
 
-    <prato id="p3">
+    <prato id="pr3">
         <nome>Hambúrguer</nome>
         <descricao>Pão com carne e acompanhamentos</descricao>
         <ingredientes>
@@ -35,12 +35,12 @@
             <ingrediente>Carne</ingrediente>
             <ingrediente>Alface</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 12.00</preco>
+        <preco moeda="USD">12.00</preco>
         <calorias>450</calorias>
-        <tempoPreparo>15 min</tempoPreparo>
+        <tempoPreparo>15 minutos</tempoPreparo>
     </prato>
 
-    <prato id="p4">
+    <prato id="pr4">
         <nome>Risoto</nome>
         <descricao>Arroz cremoso com temperos especiais</descricao>
         <ingredientes>
@@ -50,10 +50,10 @@
         </ingredientes>
         <preco moeda="BRL">&reais; 22.00</preco>
         <calorias>550</calorias>
-        <tempoPreparo>40 min</tempoPreparo>
+        <tempoPreparo>40 minutos</tempoPreparo>
     </prato>
 
-    <prato id="p5">
+    <prato id="pr5">
         <nome>Bolo de chocolate</nome>
         <descricao>Bolo macio com cobertura de chocolate</descricao>
         <ingredientes>
@@ -61,8 +61,8 @@
             <ingrediente>Chocolate</ingrediente>
             <ingrediente>Ovos</ingrediente>
         </ingredientes>
-        <preco moeda="USD">16.00</preco>
+        <preco moeda="BRL">&reais; 16.00</preco>
         <calorias>500</calorias>
-        <tempoPreparo>50 min</tempoPreparo>
+        <tempoPreparo>50 minutos</tempoPreparo>
     </prato>
 </cardapio>
