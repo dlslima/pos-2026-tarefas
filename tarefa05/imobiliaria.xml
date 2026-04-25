@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<imobiliaria xmlns="http://meuimovel.com"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://meuimovel.com imobiliaria.xsd">
+
+    <imovel>
+        <descricao>Casa moderna com área gourmet</descricao>
+        <endereco>
+            <rua>Rua Verde</rua>
+            <cidade>Natal</cidade>
+            <bairro>Lagoa Nova</bairro>
+        </endereco>
+        <proprietario>
+            <nome>Lucas Andrade</nome>
+            <telefone>99911-2233</telefone>
+            <telefone>98822-3344</telefone>
+            <email>lucas@email.com</email>
+        </proprietario>
+        <caracteristicas>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+            <tamanho>180</tamanho>
+        </caracteristicas>
+        <valor>380000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento com vista urbana</descricao>
+        <endereco>
+            <rua>Avenida Central</rua>
+            <cidade>Natal</cidade>
+            <bairro>Centro</bairro>
+            <numero>120</numero>
+        </endereco>
+        <proprietario>
+            <nome>Ana Costa</nome>
+            <telefone>97700-4455</telefone>
+        </proprietario>
+        <caracteristicas>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+            <tamanho>75</tamanho>
+        </caracteristicas>
+        <valor>210000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa simples com quintal</descricao>
+        <endereco>
+            <rua>Rua Azul</rua>
+            <cidade>Natal</cidade>
+            <bairro>Zona Norte</bairro>
+            <numero>45</numero>
+        </endereco>
+        <proprietario>
+            <nome>Bruno Martins</nome>
+            <email>bruno@email.com</email>
+        </proprietario>
+        <caracteristicas>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+            <tamanho>110</tamanho>
+        </caracteristicas>
+        <valor>160000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento compacto</descricao>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <cidade>Natal</cidade>
+            <bairro>Petrópolis</bairro>
+            <numero>300</numero>
+        </endereco>
+        <proprietario>
+            <nome>Carla Lima</nome>
+            <telefone>96655-7788</telefone>
+            <email>carla@email.com</email>
+        </proprietario>
+        <caracteristicas>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+            <tamanho>55</tamanho>
+        </caracteristicas>
+        <valor>140000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de alto padrão com piscina</descricao>
+        <endereco>
+            <rua>Avenida Atlântica</rua>
+            <cidade>Natal</cidade>
+            <bairro>Via Costeira</bairro>
+            <numero>800</numero>
+        </endereco>
+        <proprietario>
+            <nome>Eduardo Ribeiro</nome>
+            <telefone>95544-1122</telefone>
+            <telefone>94433-2211</telefone>
+        </proprietario>
+        <caracteristicas>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+            <tamanho>320</tamanho>
+        </caracteristicas>
+        <valor>950000</valor>
+    </imovel>
+
+</imobiliaria>

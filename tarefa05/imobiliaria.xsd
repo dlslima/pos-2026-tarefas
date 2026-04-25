@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:i="http://meuimovel.com"
+           targetNamespace="http://meuimovel.com"
+           elementFormDefault="qualified">
+
+    <!-- Tipos -->
+    <xs:simpleType name="tipoTexto">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoInteiro">
+        <xs:restriction base="xs:integer"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDecimal">
+        <xs:restriction base="xs:decimal"/>
+    </xs:simpleType>
+
+    <!-- Elementos básicos -->
+    <xs:element name="descricao" type="i:tipoTexto"/>
+    <xs:element name="nome" type="i:tipoTexto"/>
+    <xs:element name="email" type="i:tipoTexto"/>
+    <xs:element name="telefone" type="i:tipoTexto"/>
+
+    <xs:element name="rua" type="i:tipoTexto"/>
+    <xs:element name="bairro" type="i:tipoTexto"/>
+    <xs:element name="cidade" type="i:tipoTexto"/>
+    <xs:element name="numero" type="i:tipoInteiro"/>
+
+    <xs:element name="tamanho" type="i:tipoDecimal"/>
+    <xs:element name="numQuartos" type="i:tipoInteiro"/>
+    <xs:element name="numBanheiros" type="i:tipoInteiro"/>
+
+    <xs:element name="valor" type="i:tipoDecimal"/>
+
+    <!-- Proprietário -->
+    <xs:element name="proprietario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="i:nome"/>
+                <!-- diferente: ordem livre de contato -->
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="i:telefone"/>
+                    <xs:element ref="i:email"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Endereço -->
+    <xs:element name="endereco">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="i:rua"/>
+                <xs:element ref="i:cidade"/>
+                <xs:element ref="i:bairro"/>
+                <!-- opcional -->
+                <xs:element ref="i:numero" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Características -->
+    <xs:element name="caracteristicas">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- mudei ordem -->
+                <xs:element ref="i:numQuartos"/>
+                <xs:element ref="i:numBanheiros"/>
+                <xs:element ref="i:tamanho"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Imóvel -->
+    <xs:element name="imovel">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="i:descricao"/>
+                <xs:element ref="i:endereco"/>
+                <xs:element ref="i:proprietario"/>
+                <xs:element ref="i:caracteristicas"/>
+                <xs:element ref="i:valor"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Raiz -->
+    <xs:element name="imobiliaria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="i:imovel" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
