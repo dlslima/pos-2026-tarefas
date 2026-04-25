@@ -1,0 +1,36 @@
+{
+    "cardapio": {
+        "pratos": [
+            {
+                "id": "1",
+                "nome": "Macarrão ao molho branco",
+                "descricao": "Macarrão cremoso com molho branco e queijo.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Macarrão",
+                        "Leite",
+                        "Queijo"
+                    ]
+                },
+                "preco": "R$ 22.50",
+                "calorias": "650",
+                "tempoPreparo": "25 min"
+            },
+            {
+                "id": "2",
+                "nome": "Arroz com frango",
+                "descricao": "Arroz temperado com pedaços de frango grelhado.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Arroz",
+                        "Frango",
+                        "Temperos"
+                    ]
+                },
+                "preco": "R$ 18.90",
+                "calorias": "550",
+                "tempoPreparo": "40 min"
+            }
+        ]
+    }
+}

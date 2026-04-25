@@ -1,0 +1,63 @@
+{
+    "imobiliaria": {
+        "imoveis": [
+            {
+                "descricao": "Casa moderna com área gourmet",
+                "proprietario": {
+                    "nome": "Carlos Souza",
+                    "email": ["carlos@email.com"],
+                    "telefone": ["99911-2233", "98822-3344"]
+                },
+                "endereco": {
+                    "rua": "Rua Verde",
+                    "bairro": "Lagoa Nova",
+                    "cidade": "Natal"
+                },
+                "caracteristicas": {
+                    "tamanho": "180m2",
+                    "numQuartos": 3,
+                    "numBanheiros": 2
+                },
+                "valor": 380000
+            },
+            {
+                "descricao": "Apartamento com vista urbana",
+                "proprietario": {
+                    "nome": "Fernanda Lima",
+                    "telefone": ["97700-4455"]
+                },
+                "endereco": {
+                    "rua": "Avenida Central",
+                    "bairro": "Centro",
+                    "cidade": "Natal",
+                    "número": "120"
+                },
+                "caracteristicas": {
+                    "tamanho": "75m2",
+                    "numQuartos": 2,
+                    "numBanheiros": 1
+                },
+                "valor": 210000
+            },
+            {
+                "descricao": "Casa simples com quintal",
+                "proprietario": {
+                    "nome": "Rafael Mendes",
+                    "email": ["rafael@email.com"]
+                },
+                "endereco": {
+                    "rua": "Rua Azul",
+                    "bairro": "Zona Norte",
+                    "cidade": "Natal",
+                    "número": "45"
+                },
+                "caracteristicas": {
+                    "tamanho": "110m2",
+                    "numQuartos": 2,
+                    "numBanheiros": 1
+                },
+                "valor": 160000
+            }
+        ]
+    }
+}

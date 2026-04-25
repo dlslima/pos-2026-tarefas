@@ -1,0 +1,44 @@
+{
+    "quiz": {
+        "versao": "1.0",
+        "disciplina": "Banco de Dados",
+        "professor": {
+            "nome": "Carlos Oliveira",
+            "matrícula": "98765"
+        },
+        "turma": "InfoWeb2M",
+        "data": "2026-06-10",
+        "questões": [
+            {
+                "enunciado": "O que significa SQL?",
+                "pontuação": 2,
+                "alternativas": [
+                    { "texto": "Structured Query Language", "correta": true },
+                    { "texto": "Simple Query Language", "correta": false },
+                    { "texto": "Standard Question Language", "correta": false },
+                    { "texto": "System Query Logic", "correta": false }
+                ]
+            },
+            {
+                "enunciado": "Qual comando é usado para selecionar dados?",
+                "pontuação": 2,
+                "alternativas": [
+                    { "texto": "SELECT", "correta": true },
+                    { "texto": "INSERT", "correta": false },
+                    { "texto": "DELETE", "correta": false },
+                    { "texto": "UPDATE", "correta": false }
+                ]
+            },
+            {
+                "enunciado": "Qual comando adiciona novos dados?",
+                "pontuação": 2,
+                "alternativas": [
+                    { "texto": "SELECT", "correta": false },
+                    { "texto": "INSERT", "correta": true },
+                    { "texto": "DROP", "correta": false },
+                    { "texto": "ALTER", "correta": false }
+                ]
+            }
+        ]
+    }
+}
