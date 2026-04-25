@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cardapio xmlns="http://meucardapio.com"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://meucardapio.com cardapio.xsd">
+
+    <prato id="1">
+        <nome>Macarrão ao molho branco</nome>
+        <preco>22.50</preco>
+        <descricao>Macarrão cremoso com molho branco e queijo.</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão</ingrediente>
+            <ingrediente>Leite</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <calorias>650</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Arroz com frango</nome>
+        <preco>18.90</preco>
+        <descricao>Arroz temperado com pedaços de frango grelhado.</descricao>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Temperos</ingrediente>
+        </ingredientes>
+        <calorias>550</calorias>
+        <tempoPreparo>40 min</tempoPreparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Batata frita</nome>
+        <preco>12.00</preco>
+        <descricao>Porção de batatas crocantes fritas.</descricao>
+        <ingredientes>
+            <ingrediente>Batata</ingrediente>
+            <ingrediente>Óleo</ingrediente>
+            <ingrediente>Sal</ingrediente>
+        </ingredientes>
+        <calorias>400</calorias>
+        <tempoPreparo>15 min</tempoPreparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Sanduíche natural</nome>
+        <preco>14.50</preco>
+        <descricao>Pão integral com recheio leve e saudável.</descricao>
+        <ingredientes>
+            <ingrediente>Pão integral</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Frango desfiado</ingrediente>
+        </ingredientes>
+        <calorias>350</calorias>
+        <tempoPreparo>10 min</tempoPreparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Omelete</nome>
+        <preco>10.75</preco>
+        <descricao>Omelete simples com ovos e temperos.</descricao>
+        <ingredientes>
+            <ingrediente>Ovos</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+        </ingredientes>
+        <calorias>300</calorias>
+        <tempoPreparo>8 min</tempoPreparo>
+    </prato>
+
+</cardapio>
