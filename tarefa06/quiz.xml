@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz xmlns="http://quiz.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://quiz.org quiz.xsd"
+      versao="1.0">
+
+    <disciplina>Banco de Dados</disciplina>
+
+    <professor>
+        <nome>João Pedro</nome>
+        <matrícula>54321</matrícula>
+    </professor>
+
+    <turma>InfoWeb2M</turma>
+    <data>2026-05-15</data>
+
+    <questões>
+
+        <questão>
+            <enunciado>O que significa SQL?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Structured Query Language</alternativa>
+                <alternativa correta="nao">Simple Query Language</alternativa>
+                <alternativa correta="nao">Standard Question Language</alternativa>
+                <alternativa correta="nao">System Query Logic</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual comando é usado para selecionar dados?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">SELECT</alternativa>
+                <alternativa correta="nao">INSERT</alternativa>
+                <alternativa correta="nao">DELETE</alternativa>
+                <alternativa correta="nao">UPDATE</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual comando adiciona novos dados?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="nao">SELECT</alternativa>
+                <alternativa correta="sim">INSERT</alternativa>
+                <alternativa correta="nao">DROP</alternativa>
+                <alternativa correta="nao">ALTER</alternativa>
+            </alternativas>
+        </questão>
+
+    </questões>
+
+</quiz>
