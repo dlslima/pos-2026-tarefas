@@ -1,0 +1,106 @@
+<imobiliaria>
+
+    <imovel>
+        <descricao>Casa duplex com área gourmet e piscina</descricao>
+        <proprietario>
+            <nome>Rafael Santos</nome>
+            <telefone>99111-2222</telefone>
+            <telefone>98222-3333</telefone>
+            <email>rafael@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Capim Macio</bairro>
+            <cidade>Natal</cidade>
+            <numero>150</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>220m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>480000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <proprietario>
+            <nome>Juliana Rocha</nome>
+            <telefone>97777-8888</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Atlântica</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa simples em rua tranquila</descricao>
+        <proprietario>
+            <nome>Lucas Andrade</nome>
+            <telefone>96666-9999</telefone>
+            <email>lucas@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Zona Norte</bairro>
+            <cidade>Natal</cidade>
+            <numero>80</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>130m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>170000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento compacto próximo ao centro</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <telefone>95555-4444</telefone>
+            <email>fernanda@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua João Câmara</rua>
+            <bairro>Centro</bairro>
+            <cidade>Natal</cidade>
+            <numero>210</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>65m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>160000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de alto padrão com vista panorâmica</descricao>
+        <proprietario>
+            <nome>Bruno Almeida</nome>
+            <telefone>94444-1111</telefone>
+            <telefone>93333-2222</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Oceânica</rua>
+            <bairro>Via Costeira</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>360m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>1250000</valor>
+    </imovel>
+
+</imobiliaria>

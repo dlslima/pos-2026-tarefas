@@ -1,0 +1,120 @@
+[
+    {
+        "descricao": "Casa duplex com área gourmet e piscina",
+        "proprietario": {
+            "nome": "Rafael Santos",
+            "telefones": [
+                "99111-2222",
+                "98222-3333"
+            ],
+            "emails": [
+                "rafael@email.com"
+            ]
+        },
+        "endereco": {
+            "rua": "Rua do Sol",
+            "bairro": "Capim Macio",
+            "cidade": "Natal",
+            "numero": "150"
+        },
+        "caracteristicas": {
+            "tamanho": "220m²",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+        },
+        "valor": "480000"
+    },
+    {
+        "descricao": "Apartamento com vista para o mar",
+        "proprietario": {
+            "nome": "Juliana Rocha",
+            "telefones": [
+                "97777-8888"
+            ],
+            "emails": []
+        },
+        "endereco": {
+            "rua": "Avenida Atlântica",
+            "bairro": "Ponta Negra",
+            "cidade": "Natal",
+            "numero": null
+        },
+        "caracteristicas": {
+            "tamanho": "90m²",
+            "numQuartos": "2",
+            "numBanheiros": "2"
+        },
+        "valor": "350000"
+    },
+    {
+        "descricao": "Casa simples em rua tranquila",
+        "proprietario": {
+            "nome": "Lucas Andrade",
+            "telefones": [
+                "96666-9999"
+            ],
+            "emails": [
+                "lucas@email.com"
+            ]
+        },
+        "endereco": {
+            "rua": "Rua das Palmeiras",
+            "bairro": "Zona Norte",
+            "cidade": "Natal",
+            "numero": "80"
+        },
+        "caracteristicas": {
+            "tamanho": "130m²",
+            "numQuartos": "2",
+            "numBanheiros": "1"
+        },
+        "valor": "170000"
+    },
+    {
+        "descricao": "Apartamento compacto próximo ao centro",
+        "proprietario": {
+            "nome": "Fernanda Costa",
+            "telefones": [
+                "95555-4444"
+            ],
+            "emails": [
+                "fernanda@email.com"
+            ]
+        },
+        "endereco": {
+            "rua": "Rua João Câmara",
+            "bairro": "Centro",
+            "cidade": "Natal",
+            "numero": "210"
+        },
+        "caracteristicas": {
+            "tamanho": "65m²",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "valor": "160000"
+    },
+    {
+        "descricao": "Casa de alto padrão com vista panorâmica",
+        "proprietario": {
+            "nome": "Bruno Almeida",
+            "telefones": [
+                "94444-1111",
+                "93333-2222"
+            ],
+            "emails": []
+        },
+        "endereco": {
+            "rua": "Avenida Oceânica",
+            "bairro": "Via Costeira",
+            "cidade": "Natal",
+            "numero": null
+        },
+        "caracteristicas": {
+            "tamanho": "360m²",
+            "numQuartos": "5",
+            "numBanheiros": "4"
+        },
+        "valor": "1250000"
+    }
+]
